@@ -1,0 +1,37 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  height: 100%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #f4f4f4;
+  background: radial-gradient(circle at top, #87ceeb 0%, #2f3542 70%);
+}
+
+canvas#app {
+  width: 100vw;
+  height: 100vh;
+  display: block;
+}
+
+.hud {
+  position: fixed;
+  top: 1rem;
+  left: 1rem;
+  background: rgba(0, 0, 0, 0.4);
+  padding: 0.75rem 1rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 0.75rem 2rem rgba(0, 0, 0, 0.35);
+}
+
+.hud h1 {
+  margin: 0 0 0.5rem;
+  font-size: 1.25rem;
+}
+
+.hud p {
+  margin: 0;
+  font-size: 0.95rem;
+  max-width: 22rem;
+  line-height: 1.4;
+}
